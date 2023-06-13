@@ -9,7 +9,7 @@ description = "My site description"
 authorImage = "/images/avatar.jpg"
 paginate = 5 
 Title = "안녕하세요👋"
-content = "뉴비의 고수 성장블로그!       "
+content = "뉴비의 고수 성장블로그!             "
 imageUrl = "/images/avatar.jpg"
 
 # To add a new social icon 
