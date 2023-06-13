@@ -17,7 +17,7 @@
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css"
     />
-    {{ $styles := resources.Get "css/style.css" | toCSS | minify | fingerprint
+    {{ $styles := resources.Get "scss/style.scss" | toCSS | minify | fingerprint
     }}
     <link rel="stylesheet" href="{{ $styles.Permalink }}" />
     <link rel="favicon" href="/static/favicon/favicon.ico">
