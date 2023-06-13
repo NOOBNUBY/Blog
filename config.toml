@@ -1,0 +1,57 @@
+baseURL = 'http://blog.noobnuby.com' 
+languageCode = 'ko'
+theme = "JuiceBar"
+title = "뉴비의 고수 성장블로그"
+
+[params]
+author = "noobnuby"
+description = "My site description"
+authorImage = "/images/avatar.jpg"
+paginate = 5 
+Title = "안녕하세요👋"
+content = "뉴비의 고수 성장블로그!       "
+imageUrl = "/images/avatar.jpg"
+
+# To add a new social icon 
+# More social icons can be found in JuiceBar\layouts\partials\svg.html.
+[[params.social]]
+name = "Github"
+url = "https://github.com/noobnuby"
+[[params.social]]
+name = "email"
+url = "mailto:noobnuby77@gmail.com"
+[[params.social]]
+name = "instagram"
+url = "your_url"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+# To add a new navigation link
+[[menu.main]]
+name = "태그"
+url = "/tags"
+[[menu.main]]
+name = "카테고리"
+url = "/categories"
+[[menu.main]]
+name = "아카이브"
+url = "/post"
+
+# If using the giscus commenting system
+[params.giscus]
+repo = "NOOBNUBY/Blog"
+repoID = "R_kgDOJunxyQ"
+category = "General"
+categoryID = "DIC_kwDOJunxyc4CXK1d"
+mapping = "og:title"
+reactionsEnabled = "1"
+emitMetadata = "0"
+inputPosition = "bottom"
+lang = "ko"
+loading = "lazy"
+
+# Used for outputting the documentation (required).
+[outputs]
+home = ["HTML", "RSS", "JSON"]
